@@ -1,0 +1,20 @@
+<h3 style="margin-left: 30%">{{viewTitle}}</h3>
+
+<form action="/studentLogin" method="POST" autocomplete="off">
+    <div class="form-group">
+        <label for="ID_num">Student Name</label>
+        <input type="text" class="form-control form-control-sm" placeholder="ID_number" name="name" id="id_num" required
+        style="border-top: none; border-left: none;  border-right: none; border-color: rgba(228, 194, 194, 0.856);"
+        >
+   </div>
+   <div class="from-group">
+        <label for="password">Student Pin</label>
+        <input type="password" class="form-control form-control-sm" placeholder="password" name="password" id="password" required
+        style="border-top: none; border-left: none;  border-right: none; border-color: rgba(228, 194, 194, 0.856);"
+        >
+   </div><br>
+   <div class="form-group">
+       <button type="submit" style="margin-left: 30%; width:40%;   border-radius: 15px 50px 30px;" class="btn btn-primary">Submit</button><br>
+       <p><a href="/studentRegister" style="margin-left: 27%; text-decoration: none;color: #8a9199dc;">Don't have an account please sign up here</a></p>
+   </div>
+</form>
